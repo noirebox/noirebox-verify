@@ -22,7 +22,7 @@ runs:
       shell: bash
       run: |
         git clone --depth 1 --branch "${{ inputs.noirebox-ref }}" \
-          https://github.com/slabbdev/noirebox.git "$RUNNER_TEMP/noirebox"
+          https://github.com/noirebox/noirebox.git "$RUNNER_TEMP/noirebox"
     - name: Install the runtime dependency (verifier needs cryptography only)
       shell: bash
       run: pip install --quiet cryptography

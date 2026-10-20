@@ -2,6 +2,8 @@
 
 **Verify a NoireBox export journal in CI. The job fails if the chain was tampered with.**
 
+[![DOI](https://zenodo.org/badge/1383344354.svg)](https://doi.org/10.5281/zenodo.23442331)
+
 The flight recorder meets the pipeline: any repository that consumes AI-agent
 decisions can gate its builds on the integrity of the journal it received —
 without trusting the producer, the host, or anyone.
